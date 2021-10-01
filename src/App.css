@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+body { 
+  margin: 0;
+  background-image: url(https://images.unsplash.com/photo-1547532182-bf296f6be875?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  overflow-x: hidden
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+h3{
+  font-family: cursive;
+  font-size: 20px;
+  margin: 0px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 2px solid inherit;
+  border-radius: 30px;
+  text-align: center ;
+  width: 40%;
+  background-color: rgb(247, 237, 237,0.8);
+
 }
 
-.App-link {
-  color: #61dafb;
+.main{
+  position: relative;
+  left: 30%;
+  margin-top: 4%;
+  overflow: hidden !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+
+
+#btn{
+  width: 20%;
+  position: relative;
+  left: 40%;
+  margin-top: 4%;
+}
+
+form .box{
+  margin: 10px !important;
+  width: 80%;
+  position: relative;
+  left: 10%;
+
+}
+
+
+
+@media screen and (max-width: 420px) {
+  .main {
+    position: relative;
+  left: 2%;
+  margin-top: 4%;
   }
-  to {
-    transform: rotate(360deg);
+  form{
+    text-align: center ;
+    width: 60%;
+  
   }
 }
+
+/* @media screen and (max-height: 1000px) {
+  body{
+    overflow-x: hidden;
+  }
+  .main {
+    position: relative;
+    left: 6%;
+    margin-top: 4%;
+    height: 120vh;
+  }
+  form{
+    text-align: center ;
+    width: 60%;
+  }
+} */
+
+@media screen and (min-width: 700) {
+  body{
+    overflow-x: hidden;
+  }
+  .main {
+    position: relative;
+    left: 6%;
+    margin-top: 4%;
+    height: 120vh;
+  }
+  form{
+    text-align: center ;
+    width: 60%;
+  }
+}
+
+
+
